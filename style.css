@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242424;
+    height: 100vh;
+}
+
+textarea {
+    padding: 4px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    gap: 62px;
+}
+
+p {
+    text-decoration: white solid underline;
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #5fb9e6;
+}
+
+[type="button"] {
+    margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+    #responsive-textarea {
+        width: 90%; /* Adjust the width as needed */
+        max-width: 800px; /* You can adjust this value to control the maximum width */
+    }
+}
