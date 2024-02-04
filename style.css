@@ -24,14 +24,15 @@ textarea {
 }
 
 .p-style {
-    text-decoration: white solid underline;
+    /*text-decoration: white solid underline;*/
     font-size: 1.1rem;
 }
 
 button {
-    background-color: blue;
+    background-color: skyblue;
     padding: 10px;
     border-radius: 6px;
+    color: whitesmoke;
 }
 
 button:hover {
@@ -40,6 +41,10 @@ button:hover {
 
 [type="button"] {
     margin-top: 16px;
+}
+
+ul li a:hover {
+    color: skyblue;
 }
 
 @media (min-width: 768px) {
